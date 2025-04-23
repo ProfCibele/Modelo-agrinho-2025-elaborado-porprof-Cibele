@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rota do Alimento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rota do Alimento: Do Campo à Cidade</h1>
+    <p>Descubra como os alimentos chegam até a sua mesa!</p>
+  </header>
+
+  <main>
+    <section class="timeline">
+      <div class="step" onclick="showInfo(0)">🌾 Produção no campo</div>
+      <div class="step" onclick="showInfo(1)">🚛 Transporte</div>
+      <div class="step" onclick="showInfo(2)">🏬 Distribuição</div>
+      <div class="step" onclick="showInfo(3)">🍽️ Consumo na cidade</div>
+    </section>
+
+    <section id="info" class="info-box">
+      <p>Clique em uma etapa para ver mais detalhes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto Agrinho 2025 – Festejando a conexão campo-cidade 🌱 elabolado por: Professora Cibele de F. Tinelli J. </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
